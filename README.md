@@ -30,7 +30,7 @@ To test `qtunnel`
 	Usage of ./bin/qtunnel:
 		-backend="127.0.0.1:6400": host:port of the backend
 		-clientmode=false: if running at client mode
-		-crypto="rc4": encryption method
+		-crypto="aes256cfb": encryption method
 		-listen=":9001": host:port qtunnel listen on
 		-logto="stdout": stdout or syslog
 		-secret="secret": password used to encrypt the data
