@@ -2,7 +2,7 @@ GOPATH := $(shell pwd)
 .PHONY: clean test
 
 all:
-	@GOPATH=$(GOPATH) go install qtunnel
+	@GOPATH=$(GOPATH) go install -ldflags "-s -w" qtunnel
 
 clean:
 	@rm -fr bin pkg
